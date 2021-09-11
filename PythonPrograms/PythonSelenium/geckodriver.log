@@ -1,0 +1,77 @@
+1629502939608	geckodriver	INFO	Listening on 127.0.0.1:61197
+1629502942707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\python\\AppData\\Local\\Temp\\2\\rust_mozprofilefy9nWx"
+1629502943067	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\python\\AppData\\Local\\Temp\\2\\rust_mozprofilefy9nWx\\search.json.mozlz4", (void 0)))
+1629502944384	Marionette	INFO	Listening on port 61207
+1629502944908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629502961738	Marionette	INFO	Stopped listening on port 61207
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1629503496598	geckodriver	INFO	Listening on 127.0.0.1:58532
+1629503499608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\python\\AppData\\Local\\Temp\\2\\rust_mozprofilevgnday"
+1629503504753	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\python\\AppData\\Local\\Temp\\2\\rust_mozprofilevgnday\\search.json.mozlz4", (void 0)))
+1629503505988	Marionette	INFO	Listening on port 58540
+1629503506285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629503523607	Marionette	INFO	Stopped listening on port 58540
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629503532315	geckodriver	INFO	Listening on 127.0.0.1:58645
+1629503535352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\python\\AppData\\Local\\Temp\\2\\rust_mozprofileCtzoeD"
+1629503536445	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\python\\AppData\\Local\\Temp\\2\\rust_mozprofileCtzoeD\\search.json.mozlz4", (void 0)))
+1629503537748	Marionette	INFO	Listening on port 58653
+1629503537915	Marionette	INFO	Stopped listening on port 58653
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1631060505254	geckodriver	INFO	Listening on 127.0.0.1:57068
+1631060508274	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\python\\AppData\\Local\\Temp\\2\\rust_mozprofilegQ5d57"
+1631060520951	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\python\\AppData\\Local\\Temp\\2\\rust_mozprofilegQ5d57\\search.json.mozlz4", (void 0)))
+1631060523043	Marionette	INFO	Listening on port 57076
+1631060523296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nseindia.com/dist/js/static/public/assets/js/common.js, line 3002: unreachable code after return statement
+JavaScript warning: https://www.nseindia.com/dist/js/static/public/assets/js/common.js, line 3019: unreachable code after return statement
+1631060526877	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1631062315744	Marionette	INFO	Stopped listening on port 57076
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+e at C:\\Users\\python\\AppData\\Local\\Temp\\2\\rust_mozprofileyY73tg\\search.json.mozlz4", (void 0)))
+1631060600068	Marionette	INFO	Listening on port 56403
+1631060600241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nseindia.com/dist/js/static/public/assets/js/common.js, line 3002: unreachable code after return statement
+JavaScript warning: https://www.nseindia.com/dist/js/static/public/assets/js/common.js, line 3019: unreachable code after return statement
+1631060629627	Marionette	INFO	Stopped listening on port 56403
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 1456, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
