@@ -9,7 +9,7 @@ def smart_division(func):
 
 @smart_division
 def division(a, b):
-    print('Division of {}/{} is {}'.format(a, b, a/b))
+    print("{} divide by {} is {}".format(a, b, a/b))
 
 
 division(20, 10)
