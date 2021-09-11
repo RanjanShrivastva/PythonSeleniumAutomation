@@ -1,0 +1,64 @@
+dict_a = {
+    "name" : "Ranjan", 
+    "age" : 30,
+    "age" : 50
+}
+# To update dictionary
+dict_a['sex'] = 'male'
+dict_a.update({"comp" : "hex"})
+# To acess dictionry
+print(dict_a.get('name'))
+print(dict_a)
+print(dict_a['age'])
+                #remove
+#using pop
+print(dict_a.pop("comp"))#it will return removed element
+print(dict_a)
+#using popitem()
+print(dict_a.popitem())
+print(dict_a)
+# using del
+del dict_a['age']
+print(dict_a)
+#to empty dictionary
+print(dict_a.clear())
+#to delete dictionary
+del dict_a
+print(dict_a)
+            #loop dictionary
+# to print all keys from dictionary
+for x in dict_a:
+    print(x)
+k = dict_a.keys()
+print(k)
+# to print all  values from dictionary
+for x in dict_a:
+    print(dict_a[x])
+v = dict_a.values()
+print(v)
+# to print all key and values from dictionary
+for k, v in dict_a.items():
+    print(k, " : ", v)
+        # To make a copy from a dict
+dict_b = dict_a
+print(dict_a is dict_b) # true means both are same
+dict_b = dict_a.copy()
+print(dict_a is dict_b) # false
+dict_c = dict(dict_b)
+print(dict_b is dict_c)# false
+
+            # Nested dictionary
+child1 = {
+    "name" : 'A',
+    "age" : 20
+    }
+child2 = {
+    "name" : 'A',
+    "age" : 20
+    }
+myfamily = {
+    "child1" : child1,
+    "child2" : child2,
+}
+
+print(myfamily)

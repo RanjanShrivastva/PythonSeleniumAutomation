@@ -1,0 +1,23 @@
+mybro = ["sujeet", "Ranjan", "Sunil", "Rishu"]
+# ordered list
+print(mybro)
+# indexed
+print(mybro[1])
+# allow duplicate
+mybro.append("Ranjan")
+print(mybro)
+# to get length
+print(len(mybro))
+# type function
+print(type(mybro))
+                # Access Items from list
+print(mybro[2]) # using  +ve index
+print(mybro[-2]) # using  -ve index
+print(mybro[1:3]) # using  slice
+print(mybro[:3]) # using  slice
+print(mybro[2:]) # using  slice
+print(mybro[-2:-1]) # using  slice
+        # Check if item exist in listfor
+if "Rishu" in mybro:
+    print("Rishu found")
+
