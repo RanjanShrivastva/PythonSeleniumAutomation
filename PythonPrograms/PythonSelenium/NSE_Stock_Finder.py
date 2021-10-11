@@ -1,10 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 import time
-
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.select import Select
-from webdriver_manager.chrome import ChromeDriverManager
+import webdriver_manager.chrome
 
 ff_driver_path = 'C:\\Ranjan\\Software\\Driver\\geckodriver-v0.29.1-win64\\geckodriver.exe'
 chrome_driver_path = 'C:\\Ranjan\\Software\\Driver\\chromedriver_win32\\chromedriver.exe'
