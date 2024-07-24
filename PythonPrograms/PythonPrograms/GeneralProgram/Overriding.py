@@ -15,6 +15,7 @@ class C(P):
         print('namita')
         x = super().marry()
         print(x)
+        print(P.y)
 
 
 c = C()

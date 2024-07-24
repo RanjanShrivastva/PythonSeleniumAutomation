@@ -1,14 +1,16 @@
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
 import time
+from webdriver_manager.chrome import ChromeDriverManager
 
 # To launch Browser
-driver = webdriver.Chrome(executable_path='C:\\Ranjan\\Software\\Driver\\chromedriver_win32\\chromedriver.exe')
+driver = webdriver.Chrome(ChromeDriverManager().install())
+# driver = webdriver.Chrome(executable_path='C:\\Ranjan\\Software\\Driver\\chromedriver_win32\\chromedriver.exe')
 # driver = webdriver.Firefox(executable_path='C:\\Ranjan\\Software\\Driver\\geckodriver-v0.29.1-win64\\geckodriver.exe')
 driver.get('https://www.rahulshettyacademy.com/AutomationPractice/')
 driver.maximize_window()
-driver.find_element_by_css_selector("#name").send_keys("Hello")
-driver.find_element_by_id("alertbtn").click()
+driver.find_element("#name").send_keys("Hello")
+driver.find_element("alertbtn").click()
 time.sleep(2)
 alert = driver.switch_to.alert
 alert_text = alert.text

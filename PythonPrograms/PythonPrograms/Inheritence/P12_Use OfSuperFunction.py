@@ -13,8 +13,8 @@ class P:
 
 class C(P):
     def m1(self):
-        # self.m1() # it will call child class m1 and recurssion error will comw on lin number 8
-        super().m1()# it will call parent class m1 method
+        # self.m1() # it will call child class m1 and recursion error will rise on line number 8
+        super().m1()    # it will call parent class m1 method
         print("I am child class m1 method")
 
 

@@ -14,4 +14,12 @@ def sort_alpha_numeric(ip):
     print(output)
 
 
+def sort_alpha_numeric_using_comprehension(ip):
+    string_list = [ch for ch in ip if ch.isalpha()]
+    int_list = [ch for ch in ip if ch.isnumeric()]
+    # int_list = [ch for ch in ip if not ch.isalpha()]
+    print("".join(sorted(string_list)+sorted(int_list)))
+
+
 sort_alpha_numeric(ip)
+sort_alpha_numeric_using_comprehension(ip)
