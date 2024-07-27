@@ -24,6 +24,7 @@ train_name = train_name_list[0]
 date_str = 'Sun, 28 Jul'
 src_station = 'DANAPUR - DNR '
 dest_station = 'SMVT BENGALURU - SMVB '
+target_time = "10:00:03"    # Specify the time threshold in 24-hour format (HH:MM)
 
 
 # Define Chrome options
@@ -45,8 +46,8 @@ driver_obj.find_element("xpath", "//input[@formcontrolname='password']").send_ke
 # wait.until(EC.visibility_of_element_located((By.XPATH, "//img[@class='captcha-img']")))
 # captcha_lg1 = driver_obj.find_element("xpath", "//img[@class='captcha-img']")
 # captcha_lg1.screenshot("captcha1.png")
-# img to txt generator
-pytesseract.pytesseract.tesseract_cmd = r'C:\\OCR\\Tesseract-OCR\\tesseract.exe'  # your path may be different
+# # img to txt generator
+# pytesseract.pytesseract.tesseract_cmd = r'C:\\OCR\\Tesseract-OCR\\tesseract.exe'  # your path may be different
 # img1 = Image.open('captcha1.png')
 # text1 = pytesseract.image_to_string(img1)
 # print("first captcha: ", text1)
@@ -54,6 +55,7 @@ time.sleep(10)
 # driver_obj.find_element("xpath", "//input[@id='captcha']").send_keys(text1)
 # driver_obj.find_element("xpath", "//*[contains(text(), 'SIGN IN')]").click()
 # logic to wait for home page
+# wait.until(EC.visibility_of_element_located((By.XPATH, "//input[@aria-controls='pr_id_1_list']")))
 driver_obj.find_element("xpath", "//input[@aria-controls='pr_id_1_list']").send_keys("{}".format(src_station))
 driver_obj.find_element("xpath", "//label[contains(text(), 'BOOK TICKET')]").click()
 driver_obj.find_element("xpath", "//input[@aria-controls='pr_id_2_list']").send_keys("{}".format(dest_station))
@@ -73,8 +75,6 @@ driver_obj.find_element("xpath", "//span[text()='TATKAL']").click()
 driver_obj.find_element("xpath", "//button[@type='submit']").click()
 # time.sleep(1)
 ###############################################################################
-# Specify the time threshold in 24-hour format (HH:MM)
-target_time = "11:00:03"
 """Wait until the current time reaches the target time."""
 while True:
     current_time = datetime.now().strftime("%H:%M:%S")
