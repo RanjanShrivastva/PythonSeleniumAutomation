@@ -18,10 +18,10 @@ username = username_list[0]
 password_list = ['rkumar1433', 'Surbhi2024@@@']
 password = password_list[0]
 class_type_list = ['Sleeper (SL)', 'AC 3 Tier (3A)']
-class_type = class_type_list[0]
+class_type = class_type_list[1]
 train_name_list = [' SANGHA MITRA EX (12296)', ' HUMSAFAR EXP (22353)']
 train_name = train_name_list[0]
-date_str = 'Thu, 25 Jul'
+date_str = 'Sun, 28 Jul'
 src_station = 'DANAPUR - DNR '
 dest_station = 'SMVT BENGALURU - SMVB '
 
@@ -61,7 +61,7 @@ driver_obj.find_element("xpath", "//label[contains(text(), 'BOOK TICKET')]").cli
 # time.sleep(2)
 wait.until(EC.visibility_of_element_located((By.XPATH, "//p-calendar[@dateformat='dd/mm/yy']//child::span")))
 driver_obj.find_element("xpath", "//p-calendar[@dateformat='dd/mm/yy']//child::span").click()
-wait.until(EC.visibility_of_element_located((By.XPATH, "//a[text()='25']")))
+wait.until(EC.visibility_of_element_located((By.XPATH, "//a[text()='{}']".format(date_str[5:7]))))
 driver_obj.find_element("xpath", "//a[text()='{}']".format(date_str[5:7])).click()
 driver_obj.find_element("id", "journeyClass").click()
 # time.sleep(1)
