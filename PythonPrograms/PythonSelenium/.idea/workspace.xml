@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="186d083a-9391-4bc7-b2d8-ad3668ec92ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/ListComprehension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/ListOfKeyword.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/OtpGen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/custom_exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/simpleException.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/PythonSelenium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_suggestion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/select_checkbox_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/select_dropdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/select_radio_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/Projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Count_Vowel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Count_Vowel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/DecoratorExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/DecoratorExample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Factorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Factorial_with_Recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Factorial_with_Recursion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/GeneratorExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/GeneratorExample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Merge_Two_String_Alternatively.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Merge_Two_String_Alternatively.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Overloading_Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Overloading_Python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Overriding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Overriding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Sorting_AlphaNumeric_String.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Sorting_AlphaNumeric_String.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/a4b3c2_to_aaaabbbcc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/a4b3c2_to_aaaabbbcc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/aaaabbbccz_to__4a3b2c1z.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/aaaabbbccz_to__4a3b2c1z.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/LamdaFilterMapReduce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/Inheritence/P12_Use OfSuperFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/Inheritence/P12_Use OfSuperFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonPrograms/ran.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPrograms/GeneralProgram/Remove_consecutive_Duplicate_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoAlert.py" beforeDir="false" afterPath="$PROJECT_DIR$/DemoAlert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoBrowser.py" beforeDir="false" afterPath="$PROJECT_DIR$/back_refresh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoImplicitWait.py" beforeDir="false" afterPath="$PROJECT_DIR$/DemoImplicitWait.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoLocator.py" beforeDir="false" afterPath="$PROJECT_DIR$/DemoLocator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpectedWait.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExpectedWait.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NSE_Stock_Finder.py" beforeDir="false" afterPath="$PROJECT_DIR$/NSE_Stock_Finder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TestFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../TestFile.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="28Y34kRxNwP2vZFZVtQKFCAgxLh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="186d083a-9391-4bc7-b2d8-ad3668ec92ce" name="Changes" comment="" />
+      <created>1651379502802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651379502802</updated>
+    </task>
+    <servers />
+  </component>
+</project>
