@@ -1,10 +1,10 @@
 import pytest
 from selenium import webdriver
 
-driver_path_chrome = 'C:\\Projects\\FlipkartAutomation\\drivers\\chromedriver.exe'
-driver_path_ff = 'C:\\Projects\\FlipkartAutomation\\drivers\\geckodriver.exe'
-driver_path_ie = 'C:\\Projects\\FlipkartAutomation\\drivers\\'
-app_url = 'https://flipkart.com'
+driver_path_chrome = 'D:\\Projects\\PythonSeleniumAutomation\\FlipkartAutomation\\drivers\\chromedriver.exe'
+driver_path_ff = 'D:\\Projects\\PythonSeleniumAutomation\\FlipkartAutomation\\drivers\\geckodriver.exe'
+driver_path_ie = 'D:\\Projects\\PythonSeleniumAutomation\\FlipkartAutomation\\drivers\\'
+app_url = 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
 
 
 def pytest_addoption(parser):
@@ -19,10 +19,10 @@ def pytest_addoption(parser):
 def setup(request):
     browser_name = request.config.getoption("browser_name")
     if browser_name.lower() == 'chrome':
-        driver = webdriver.Chrome(executable_path=driver_path_chrome)
+        driver = webdriver.Chrome()
         driver.get(app_url)
     elif browser_name.lower() == 'ff' or 'firefox':
-        driver = webdriver.Chrome(executable_path=driver_path_ff)
+        driver = webdriver.Chrome()
     driver.get(app_url)
     driver.maximize_window()
     # return driver

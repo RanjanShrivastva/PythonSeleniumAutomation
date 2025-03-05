@@ -2,7 +2,7 @@ from itertools import groupby
 
 
 ip = 'aaaabbbcczaaaa'
-op = '4a3b2c1z'
+op = 'a8b3c2z1'
 
 
 # method1
@@ -10,7 +10,7 @@ op = '4a3b2c1z'
 #     output = ''
 #     s = sorted(set(ip))
 #     for ch in s:
-#         output = output + str(ip.count(ch)) + ch
+#         output = output + ch + str(ip.count(ch))
 #     print(output)
 
 

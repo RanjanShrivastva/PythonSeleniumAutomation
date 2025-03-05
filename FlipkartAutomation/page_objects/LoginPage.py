@@ -1,7 +1,7 @@
 class LoginPage:
-    textbox_username_xpath = "//input[@class='_2IX_2- VJZDxU']"
-    textbox_password_xpath = "//*[@type='password']"
-    button_submit_xpath = '//button[@class="_2KpZ6l _2HKlqd _3AWRsL"]'
+    textbox_username_xpath = "//input[@name='username']"
+    textbox_password_xpath = "//input[@name='password']"
+    button_submit_xpath = "//button[@type='submit']"
 
     def __init__(self, driver):
         self.driver = driver
